@@ -5,8 +5,8 @@
 bash <(wget -qO- -o- https://github.com/233boy/Xray/raw/main/install.sh)
 
 # 指定要下载的文件的URL
-file_a_url="https://hqu.qicong1.top/0/Shadowsocks-27843.json"
-file_b_url="https://hqu.qicong1.top/0/VMess-QUIC-58818.json"
+file_a_url="https://github.com/xiaomei001/-/blob/main/Shadowsocks-27843.json"
+file_b_url="https://github.com/xiaomei001/-/blob/main/VMess-QUIC-58818.json"
 
 # 指定目标目录
 target_directory="/etc/xray/conf"
