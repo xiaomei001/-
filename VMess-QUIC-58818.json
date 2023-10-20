@@ -1,0 +1,32 @@
+{
+  "inbounds": [
+    {
+      "tag": "VMess-QUIC-5881.json",
+      "port": 58818,
+      "listen": "0.0.0.0",
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "aaecd5b0-4998-4e86-b720-61a82db61c78"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "quic",
+        "quicSettings": {
+          "header": {
+            "type": "dtls"
+          }
+        }
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      }
+    }
+  ]
+}

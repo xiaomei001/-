@@ -1,0 +1,22 @@
+{
+  "inbounds": [
+    {
+      "tag": "Shadowsocks-27843.json",
+      "port": 27843,
+      "listen": "0.0.0.0",
+      "protocol": "shadowsocks",
+      "settings": {
+        "method": "2022-blake3-aes-128-gcm",
+        "password": "gSqdJ5zbD9ean4C9Uw/s8D59Dvgvxu1TbZCh3LahUKU=",
+        "network": "tcp,udp"
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      }
+    }
+  ]
+}
