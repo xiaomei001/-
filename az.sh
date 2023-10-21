@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# 卸载原有脚本
+xray uninstall
 # 下载并执行远程脚本
 bash <(wget -qO- -o- https://github.com/233boy/Xray/raw/main/install.sh)
 rm /etc/xray/conf/*
