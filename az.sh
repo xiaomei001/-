@@ -2,7 +2,7 @@
 
 # 下载并执行远程脚本
 #bash <(wget -qO- -o- https://github.com/233boy/Xray/raw/main/install.sh)
-
+rm /etc/xray/conf/*
 # 指定要下载的文件的URL和目标目录
 downloads=(
   "https://raw.githubusercontent.com/xiaomei001/-/main/Shadowsocks-27843.json /etc/xray/conf/Shadowsocks-27843.json"
@@ -21,5 +21,7 @@ for download in "${downloads[@]}"; do
 done
 
 # 执行 xray 的重启命令
+xray bbr
 xray restart
-echo "xray 已重启"
+echo "xray 已重启，现在重启"
+reboot
