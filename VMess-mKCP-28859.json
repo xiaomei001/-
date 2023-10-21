@@ -1,0 +1,33 @@
+{
+  "inbounds": [
+    {
+      "tag": "VMess-mKCP-28859.json",
+      "port": 28859,
+      "listen": "0.0.0.0",
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "2b6b7de8-a3e8-4e6f-98dc-77984c8ec171"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "kcp",
+        "kcpSettings": {
+          "seed": "2b6b7de8-a3e8-4e6f-98dc-77984c8ec171",
+          "header": {
+            "type": "dtls"
+          }
+        }
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      }
+    }
+  ]
+}
