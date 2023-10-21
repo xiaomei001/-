@@ -23,6 +23,5 @@ done
 
 # 执行 xray 的重启命令
 xray bbr
-xray restart
-echo "xray 已重启，现在重启"
+echo "安装完毕，现在重启"
 reboot
