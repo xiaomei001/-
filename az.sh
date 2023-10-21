@@ -7,6 +7,7 @@ rm /etc/xray/conf/*
 downloads=(
   "https://raw.githubusercontent.com/xiaomei001/-/main/Shadowsocks-27843.json /etc/xray/conf/Shadowsocks-27843.json"
   "https://raw.githubusercontent.com/xiaomei001/-/main/VMess-QUIC-58818.json /etc/xray/conf/VMess-QUIC-58818.json"
+  "https://raw.githubusercontent.com/xiaomei001/-/main/VMess-mKCP-28859.json /etc/xray/conf/VMess-mKCP-28859.json"
 )
 
 # 下载文件并检查下载是否成功
