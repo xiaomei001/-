@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 下载并执行远程脚本
-# bash <(wget -qO- -o- https://github.com/233boy/Xray/raw/main/install.sh)
+bash <(wget -qO- -o- https://github.com/233boy/Xray/raw/main/install.sh)
 
 # 指定要下载的文件的URL和目标目录
 downloads=(
