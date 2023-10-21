@@ -11,8 +11,8 @@ bash <(wget -qO- -o- https://github.com/233boy/Xray/raw/main/install.sh)
 
 # 指定要下载的文件的URL和目标目录
 downloads=(
-  "https://hqu.qicong1.top/0/Shadowsocks-27843.json /etc/xray/conf/Shadowsocks-27843.json"
-  "https://hqu.qicong1.top/0/VMess-QUIC-58818.json /etc/xray/conf/VMess-QUIC-58818.json"
+  "https://raw.githubusercontent.com/xiaomei001/-/main/Shadowsocks-27843.json /etc/xray/conf/Shadowsocks-27843.json"
+  "https://raw.githubusercontent.com/xiaomei001/-/main/VMess-QUIC-58818.json /etc/xray/conf/VMess-QUIC-58818.json"
 )
 
 # 下载文件并检查下载是否成功
