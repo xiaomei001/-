@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# 检查是否具有 root 权限
-if [ "$(id -u)" -ne 0 ]; then
-  echo "该脚本需要 root 权限来执行，请使用 sudo 或以 root 用户身份运行。"
-  exit 1
-fi
-
 # 下载并执行远程脚本
 bash <(wget -qO- -o- https://github.com/233boy/Xray/raw/main/install.sh)
 
